@@ -1,0 +1,25 @@
+{
+  "bot-name": "KC",
+  "description": "Made by kirito",
+  "logo": "https://i.ibb.co/83NQTRL/xguru-1765723475694.jpg",
+  "keywords": ["kc", "bot"],
+  "documentation-link": "https://github.com/msgamecoder/Vortex-S2",
+  "owner-verification": "kirito@example.com",
+  "env": {
+    "SESSION_ID": {
+      "description": "Put your SESSION_ID here. It starts with malvin~",
+      "value": "",
+      "required": true
+    },
+    "OWNER_NUMBER": {
+      "description": "Enter owner number",
+      "required": true,
+      "value": "+2349117525115"
+    },
+    "TIMEZONE": {
+      "description": "Enter country timezone",
+      "required": true,
+      "value": "Africa/Nigeria"
+    }
+  }
+}
