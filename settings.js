@@ -25,7 +25,7 @@ module.exports = {
   CHATBOT: getConfig("CHATBOT") || "on",
   BOT_NAME: getConfig("BOT_NAME") || process.env.BOT_NAME || "KC",
   MODE: getConfig("MODE") || process.env.MODE || "private",
-  REPO: process.env.REPO || "https://github.com/msgamecoder/vortex-s2",
+  REPO: process.env.REPO || "https://github.com/Stormjake/KCBOTBRAIN",
   PAIRING_CODE: process.env.PARING_CODE || 'true',
   BAILEYS: process.env.BAILEYS || "@whiskeysockets/baileys",
 
