@@ -109,7 +109,7 @@ function ensureEnv(envPath) {
     if (!fsSync.existsSync(envPath)) {
       fsSync.writeFileSync(envPath, defaults.join("\n") + "\n");
       console.log(chalk.green(`.env created at ${envPath}`));
-      console.log(chalk.yellow("Set SESSION_ID to vortex~<base64 json creds> for seamless login."));
+      console.log(chalk.yellow("Set SESSION_ID to kc~<base64 json creds> for seamless login."));
       return;
     }
     const existing = fsSync.readFileSync(envPath, "utf8");
